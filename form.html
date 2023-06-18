@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Моя форма</title>
+</head>
+<body>
+    <h1>Моя форма</h1>
+
+    <!-- Вставьте код вставки формы здесь -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd9oK44-fLpnJsEcnCjo5BO4rcF4FXuiO1LnXUuAOYTXehi_Q/viewform?embedded=true" width="640" height="959" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+    <script>
+        // Функция для отправки данных на почту
+        function handleFormSubmit() {
+            var form = document.forms[0];
+            form.addEventListener('submit', function(event) {
+                event.preventDefault();
+                var formData = new FormData(form);
+                var xhr = new XMLHttpRequest();
+               
