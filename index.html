@@ -121,11 +121,11 @@
                 <p class="item-name">Infiniti</p>
                 <img src="./img/stars.png" alt=""  class="img-stars"/>
                 <p class="price">2390 UAH</p>
-                <a class="btn-order" href="./form.html">
-                    <svg class="icon-order">
-                        <use href="./img/symbol-defs.svg#icon-shopping_bag"></use>
-                    </svg>
-                  </a>
+                <button class="btn-order" > <!-- Добавляем id для кнопки -->
+                  <svg class="icon-order">
+                    <use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>
+                  </svg>
+                </button>
               </li>
             <li class="item-product">
               <div class="image-container">
@@ -144,11 +144,11 @@
               <p class="item-name">Harmonie</p>
               <img src="./img/stars.png" alt="" class="img-stars"/>
               <p class="price">1350 UAH</p>
-              <a class="btn-order" href="#">
+              <button class="btn-order" > <!-- Добавляем id для кнопки -->
                 <svg class="icon-order">
-                    <use href="./img/symbol-defs.svg#icon-shopping_bag"></use>
+                  <use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>
                 </svg>
-              </a>
+              </button>
             </li>
             <li class="item-product">
               <div class="image-container">
@@ -167,11 +167,11 @@
               <p class="item-name">Charmant</p>
               <img src="./img/stars.png" alt="" class="img-stars"/>
               <p class="price">1450 UAH</p>
-              <a class="btn-order" href="#">
+              <button class="btn-order" > <!-- Добавляем id для кнопки -->
                 <svg class="icon-order">
-                    <use href="./img/symbol-defs.svg#icon-shopping_bag"></use>
+                  <use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>
                 </svg>
-              </a>
+              </button>
             </li>
             <li class="item-product">
               <div class="image-container">
@@ -191,11 +191,11 @@
               <img src="./img/stars.png" alt="" class="img-stars"/>
               
               <p class="price">2600 UAH</p>
-              <a class="btn-order" href="#">
+              <button class="btn-order" > <!-- Добавляем id для кнопки -->
                 <svg class="icon-order">
-                    <use href="./img/symbol-defs.svg#icon-shopping_bag"></use>
+                  <use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>
                 </svg>
-              </a>
+              </button>
             
             </li>
           </ul>
@@ -313,9 +313,32 @@
         </div>
       </footer>
     </main>
+    <!-- Модальное окно -->
+    <div id="order-modal" class="modal">
+      <div class="modal-content">
+        
+        <h2>Оформление заказа</h2>
+        <form class="form"  id="myForm" action="https://docs.google.com/forms/d/e/1FAIpQLSeArDbTL-4ZY65duxPVvtHsEwGxhiEvah4Qpygy7HdHp9atzw/formResponse">
+          
+          <label>Name</label>
+          <input name="entry.962224450" type="text" />
+
+          <label>Email</label>
+          <input name="entry.1832700997" type="email" required />
+          <label>Comment</label>
+          <input name="entry.1566023813" type="comment"/>
+
+          <input type="submit" value="Відправити" />
+          <span class="close">Закрити</span>
+
+    </form>
+      </div>
+    </div>
     
+    <script src="script.js"></script>
     <script>Fancybox.bind("[data-fancybox]", {
       // Your custom options
     });</script>
+
   </body>
 </html>
