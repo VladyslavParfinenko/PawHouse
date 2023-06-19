@@ -509,7 +509,7 @@ height: 423px;
   .exp-img{
     width: 629px;
     height: 445px;
-border-radius: 50px ;
+border-radius: 20px ;
 position: absolute;
 
   }
@@ -593,6 +593,7 @@ transform: matrix(-1, 0, 0, 1, 0, 0);
     width: 334px;
 height: 476px;
 position: relative;
+border-radius:20px;
 
     
 }
