@@ -5,12 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Paw House</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;500;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+/>
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -93,7 +103,14 @@
           <ul class="product-container">
             <li class="item-product">
                 <div class="image-container">
+                  <a class="item-img" data-fancybox="gallery" href="./img/1.png">
                   <img src="./img/1.png" alt="" class="item-img" />
+                </a>
+                </div>
+                <div style="display: none;">
+                  <a href="./img/2.png" data-fancybox="gallery"></a>
+                  <a href="./img/3.png" data-fancybox="gallery"></a>
+                  <a href="./img/4.png" data-fancybox="gallery"></a>
                 </div>
                 <p class="item-type">Chair</p>
                 <p class="item-name">Sakarias Armchair</p>
@@ -148,10 +165,10 @@
       </section>
       <section class="exp-section" id="about">
         <div class="container">
-        <div class="flex">
+        <div class="flex ">
 
           <img src="./img/photo1.jpg" alt="" class="exp-shadow"/>
-          <img src="./img/photo1.jpg" alt="" class="exp-img"/>
+          <img src="./img/RH184.jpg" alt="" class="exp-img"/>
           <div class="exp-box">
           <p class="experience-text">experiences</p>
           <h2 class="title">We Provide You The Best Experience</h2>
@@ -258,5 +275,9 @@
         </div>
       </footer>
     </main>
+    
+    <script>Fancybox.bind("[data-fancybox]", {
+      // Your custom options
+    });</script>
   </body>
 </html>
