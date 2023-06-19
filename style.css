@@ -414,8 +414,26 @@ flex-grow: 1;
 }
 .item-img{
     width: 217.9px;
-height: 255.9px;
+    border-radius:20px;
+    
 }
+.item-link{
+  -webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+transition: all 0.5s ease;
+border-radius:20px;
+}
+.item-link:hover{
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+ 
+}
+ 
 .image-container {
     display: flex;
     justify-content: center;
