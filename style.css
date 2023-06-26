@@ -265,7 +265,7 @@ opacity: 0.8;
 
 
 flex-direction: row;
-justify-content: space-between;
+margin: 0 auto;
 align-items: center;
 padding: 12px 8px 12px 8px;
 gap: 10px;
@@ -434,6 +434,7 @@ text-align: center;
 .product-container{
     display: flex;
     justify-content:space-between;
+    margin-bottom: 50px;
     
 }
 .item-img{
@@ -528,6 +529,47 @@ fill: #F7F7F7;
     background:#F6973F;
     fill:#1E1E1E;
   }
+
+  .prod-btn {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 8px;
+    gap: 10px;
+    width: 250px;
+    height: 56px;
+    text-align: center;
+    margin: 0 auto;
+
+    background:#0D1B39;
+    
+    border: 0.1px solid #F6973F;
+    
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 42px;
+    
+    
+    
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    
+    
+    
+    color: #FFFFFF;
+    
+    opacity: 0.9;
+    -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  }
+  .prod-btn:hover{
+    background-color:#F6973F;
+  }
+
 
 
 
