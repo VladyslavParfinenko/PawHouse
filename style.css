@@ -1078,3 +1078,8 @@ justify-content: space-around;
 .pets:hover{
   fill:#F6973F;
 }
+.column{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
