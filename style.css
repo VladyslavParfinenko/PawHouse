@@ -284,58 +284,32 @@ color: #FFFFFF;
 
 opacity: 0.8;
 }
-.button-hero{
-    
-    box-sizing: border-box;
-
-/* Auto layout */
-
-
-flex-direction: row;
-margin: 0 auto;
-align-items: center;
-padding: 12px 8px 12px 8px;
-gap: 10px;
-
-position: absolute;
-width: 344px;
-height: 56px;
-left: 548px;
-top: 504px;
-text-align: center;
-font-weight: 800;
-
-
-background: rgba(255, 255, 255, 0.15);
-border: 0.861538px solid rgba(255, 255, 255, 0.6);
-/* backdrop-filter: blur(4px); */
-/* Note: backdrop-filter has minimal browser support */
-
-border-radius: 42px;
-
-
-
-font-size: 21px;
-line-height: 150%;
-/* or 27px */
-
-
-
-color: #FFFFFF;
-
-opacity: 1;
--webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+.button-hero {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 344px;
+  height: 56px;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-weight: 800;
+  background: rgba(255, 255, 255, 0.15);
+  border: 0.861538px solid rgba(255, 255, 255, 0.6);
+  border-radius: 42px;
+  font-size: 21px;
+  line-height: 150%;
+  color: #FFFFFF;
+  opacity: 1;
+  box-shadow: inset 0 0 0 0 #E58411;
+  
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+}
 
   .button-hero:hover,.button-hero:focus{
-    backdrop-filter:unset;
-    border:0.861538px solid #1E1E1E;
-    
-    background:#F6973F;
-    backdrop-filter: blur(4px);
     color:#1E1E1E;
+  box-shadow: inset 344px 0 0 0 #E58411;
   }
   
   .flex{
@@ -518,8 +492,8 @@ color: #0D1B39;
   }
   .img-stars{
     width: 103.58px;
-height: 18.28px;
-margin-top: 6px;
+
+
   }
   .price{
     font-family: 'Inter';
@@ -765,21 +739,29 @@ margin:0 30px;
 
 color: #1E1E1E;
 
-opacity: 0.8;
-width: 252px;
-height: 51px;
+opacity: 0.9;
+
+
 
 }
 
 .text-cont{
     position: absolute;
-    margin-top: 350px;
-    background: rgba(255, 255, 255, 0.84);
-backdrop-filter: blur(5.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 35px;
+    
+    background: rgba(255, 255, 255, 0.94);
+   
+    
+width: 250px;
+height: 150px;
 /* Note: backdrop-filter has minimal browser support */
 
 border-radius: 18.1182px;
-justify-content: center;
+
+
 
 
     
@@ -787,7 +769,9 @@ justify-content: center;
 .client-list{
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
+    justify-content: flex-end;
+    
     
     
 }
@@ -798,7 +782,10 @@ justify-content: center;
     
 }
 .space{
-    margin:0 auto;
+  
+  margin:0 auto;
+
+ 
 }
 
 .logo-black{
