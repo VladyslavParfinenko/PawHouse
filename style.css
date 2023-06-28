@@ -292,7 +292,7 @@ opacity: 0.8;
   width: 344px;
   height: 56px;
   margin: 0 auto;
-  margin-top: 100px;
+  
   font-weight: 800;
   background: rgba(255, 255, 255, 0.15);
   border: 0.861538px solid rgba(255, 255, 255, 0.6);
@@ -307,11 +307,22 @@ opacity: 0.8;
   
 }
 
+
   .button-hero:hover,.button-hero:focus{
-    color:#1E1E1E;
+    
   box-shadow: inset 344px 0 0 0 #E58411;
   }
   
+  .clr{
+    background:#0D1B39;
+    
+    color:#FFFFFF;
+  }
+  .clr:hover{
+    color:#FFFFFF;
+    box-shadow: inset 344px 0 0 0 #E58411;
+    
+  }
   .flex{
     display: flex;
     box-sizing:content-box;
@@ -521,8 +532,7 @@ height:40px;
 fill: #F7F7F7;
 
 
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: background .3s ease-in-out, fill .3s ease-in-out;
   }
 
   .icon-order:hover,.icon-order:focus{
