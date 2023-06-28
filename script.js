@@ -78,8 +78,8 @@ form.addEventListener('submit', function (e) {
 
   var products = [
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery4" href="./img/har-kor1/har-kor1.jpg">' +
-    '<img src="./img/har-kor1/har-kor1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery4" href="./img/har-kor1/har-kor4.jpg">' +
+    '<img src="./img/har-kor1/har-kor4.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -98,6 +98,7 @@ form.addEventListener('submit', function (e) {
     '<div style="display: none;">' +
     '<a href="./img/har-kor1/har-kor2.jpg" data-fancybox="gallery4"></a>' +
     '<a href="./img/har-kor1/har-kor3.jpg" data-fancybox="gallery4"></a>' +
+    '<a href="./img/har-kor1/har-kor1.jpg" data-fancybox="gallery4"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +

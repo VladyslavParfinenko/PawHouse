@@ -572,6 +572,7 @@ fill: #F7F7F7;
   }
   .prod-btn:hover{
     background-color:#F6973F;
+    color:#1E1E1E;
   }
 
 
@@ -1053,8 +1054,8 @@ justify-content: space-around;
   left: 0;
   width: 100%;
   height: 80px;
-  background-image: -webkit-linear-gradient(top, transparent 0%, #4caf50 200%);
-  background-image: linear-gradient(to bottom, transparent 0%, #4caf50 200%);
+  background-image: -webkit-linear-gradient(top, transparent 0%, #F6973F 200%);
+  background-image: linear-gradient(to bottom, transparent 0%, #F6973F 200%);
   
 }
 
@@ -1067,4 +1068,13 @@ justify-content: space-around;
   font-weight: 800;
   font-size: 20px;
   opacity: 1; /* Измените значение opacity на 1 */
+}
+.pets{
+  fill:#1E1E1E;
+  width: 90px;
+  height: 90px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.pets:hover{
+  fill:#F6973F;
 }
