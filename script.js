@@ -83,13 +83,13 @@ form.addEventListener('submit', function (e) {
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
-    '<p>Колір: <span class="desc-type">Сірий</span></p>' +
+    '<p>Колір: <span class="desc-type">Світло-коричневий</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
     '<p>Розмір: <span class="desc-type">150х240</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Велюр</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
@@ -101,17 +101,17 @@ form.addEventListener('submit', function (e) {
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
-    '<p class="item-name">Infiniti</p>' +
+    '<p class="item-name">Harmonie</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">1350 UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery5" href="./img/har-sir1/har-sir1.jpg">' +
-    '<img src="./img/har-sir1/har-sir1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery5" href="./img/har-sir1/har-sir5.jpg">' +
+    '<img src="./img/har-sir1/har-sir5.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -121,7 +121,7 @@ form.addEventListener('submit', function (e) {
     '<p>Розмір: <span class="desc-type">150х240</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Велюр</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
@@ -131,31 +131,31 @@ form.addEventListener('submit', function (e) {
     '<a href="./img/har-sir1/har-sir2.jpg" data-fancybox="gallery5"></a>' +
     '<a href="./img/har-sir1/har-sir3.jpg" data-fancybox="gallery5"></a>' +
     '<a href="./img/har-sir1/har-sir4.jpg" data-fancybox="gallery5"></a>' +
-    '<a href="./img/har-sir1/har-sir5.jpg" data-fancybox="gallery5"></a>' +
+    '<a href="./img/har-sir1/har-sir1.jpg" data-fancybox="gallery5"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
-    '<p class="item-name">Infiniti</p>' +
+    '<p class="item-name">Harmonie</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">1350 UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery6" href="./img/inf-kor-l/inf-kor-l1.jpg">' +
-    '<img src="./img/inf-kor-l/inf-kor-l1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery6" href="./img/inf-kor-l/inf-kor-l4.jpg">' +
+    '<img src="./img/inf-kor-l/inf-kor-l4.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
-    '<p>Колір: <span class="desc-type">Сірий</span></p>' +
+    '<p>Колір: <span class="desc-type">Світло-коричневий</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
     '<p>Розмір: <span class="desc-type">150х240</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Велюр</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
@@ -163,23 +163,23 @@ form.addEventListener('submit', function (e) {
     '</div>' +
     '<div style="display: none;">' +
     '<a href="./img/inf-kor-l/inf-kor-l2.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l3.jpg.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l4.jpg" data-fancybox="gallery6"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l3.jpg" data-fancybox="gallery6"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l1.jpg" data-fancybox="gallery6"></a>' +
     '<a href="./img/inf-kor-l/inf-kor-l5.jpg" data-fancybox="gallery6"></a>' +
     
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
     '<p class="item-name">Infiniti</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">2880 UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery7" href="./img/inf-ser-l/inf-ser-l1.jpg">' +
-    '<img src="./img/inf-ser-l/inf-ser-l1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery7" href="./img/inf-ser-l/inf-ser-l3.jpg">' +
+    '<img src="./img/inf-ser-l/inf-ser-l3.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -189,7 +189,7 @@ form.addEventListener('submit', function (e) {
     '<p>Розмір: <span class="desc-type">150х240</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Велюр</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
@@ -197,7 +197,7 @@ form.addEventListener('submit', function (e) {
     '</div>' +
     '<div style="display: none;">' +
     '<a href="./img/inf-ser-l/inf-ser-l2.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l3.jpg" data-fancybox="gallery7"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l1.jpg" data-fancybox="gallery7"></a>' +
     '<a href="./img/inf-ser-l/inf-ser-l4.jpg" data-fancybox="gallery7"></a>' +
     '<a href="./img/inf-ser-l/inf-ser-l5.jpg" data-fancybox="gallery7"></a>' +
     '<a href="./img/inf-ser-l/inf-ser-l6.jpg" data-fancybox="gallery7"></a>' +
@@ -206,7 +206,7 @@ form.addEventListener('submit', function (e) {
     '<p class="item-type">Лежанка</p>' +
     '<p class="item-name">Infiniti</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">2880 UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
@@ -219,25 +219,25 @@ form.addEventListener('submit', function (e) {
 
   var products2 = [
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery8" href="./img/inf-tkor-l/inf-tkor-l1.jpg">' +
-    '<img src="./img/inf-tkor-l/inf-tkor-l1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery8" href="./img/inf-tkor-l/inf-tkor-l2.jpg">' +
+    '<img src="./img/inf-tkor-l/inf-tkor-l2.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
-    '<p>Колір: <span class="desc-type">Сірий</span></p>' +
+    '<p>Колір: <span class="desc-type">Коричневий</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
     '<p>Розмір: <span class="desc-type">150х240</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Велюр</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/inf-tkor-l/inf-tkor-l2.jpg" data-fancybox="gallery8"></a>' +
+    '<a href="./img/inf-tkor-l/inf-tkor-l1.jpg" data-fancybox="gallery8"></a>' +
     '<a href="./img/inf-tkor-l/inf-tkor-l3.jpg" data-fancybox="gallery8"></a>' +
     '<a href="./img/inf-tkor-l/inf-tkor-l4.jpg" data-fancybox="gallery8"></a>' +
     '<a href="./img/inf-tkor-l/inf-tkor-l5.jpg" data-fancybox="gallery8"></a>' +
@@ -246,111 +246,111 @@ form.addEventListener('submit', function (e) {
     '<p class="item-type">Лежанка</p>' +
     '<p class="item-name">Infiniti</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">2880 UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery9" href="./img/step1/step1.jpg">' +
-    '<img src="./img/step1/step1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery9" href="./img/step1/step2.jpg">' +
+    '<img src="./img/step1/step2.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
-    '<p>Колір: <span class="desc-type">Сірий</span></p>' +
+    '<p>Колір: <span class="desc-type">Чорний</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
     '<p>Розмір: <span class="desc-type">150х240</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Велюр</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/step1/step2.jpg" data-fancybox="gallery9"></a>' +
+    '<a href="./img/step1/step1.jpg" data-fancybox="gallery9"></a>' +
     '<a href="./img/step1/step3.jpg" data-fancybox="gallery9"></a>' +
     '<a href="./img/step1/step4.jpg" data-fancybox="gallery9"></a>' +
     '<a href="./img/step1/step5.jpg" data-fancybox="gallery9"></a>' +
     '<a href="./img/step1/step6.jpg" data-fancybox="gallery9"></a>' +
     
     '</div>' +
-    '<p class="item-type">Лежанка</p>' +
-    '<p class="item-name">Infiniti</p>' +
+    '<p class="item-type">Сходи</p>' +
+    '<p class="item-name">Steps</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">2400 UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery6" href="./img/inf-kor-l/inf-kor-l1.jpg">' +
-    '<img src="./img/inf-kor-l/inf-kor-l1.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery10" href="./img/petbag/petbag.jpg">' +
+    '<img src="./img/petbag/petbag.jpg" alt="" class="item-img"/>' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
-    '<p>Колір: <span class="desc-type">Сірий</span></p>' +
+    '<p>Колір: <span class="desc-type">Чорний</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
     '<p>Розмір: <span class="desc-type">150х240</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Велюр</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/inf-kor-l/inf-kor-l2.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l3.jpg.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l4.jpg" data-fancybox="gallery6"></a>' +
-    '<a href="./img/inf-kor-l/inf-kor-l5.jpg" data-fancybox="gallery6"></a>' +
+    '<a href="#"></a>' +
+    '<a href="#"></a>' +
+    '<a href="#"></a>' +
+    '<a href="#"></a>' +
     
     '</div>' +
-    '<p class="item-type">Лежанка</p>' +
-    '<p class="item-name">Infiniti</p>' +
+    '<p class="item-type">Сумка</p>' +
+    '<p class="item-name">Pet bag</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">- UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery7" href="./img/inf-ser-l/inf-ser-l1.jpg">' +
+    '<a class="item-link" data-fancybox="gallery11" href="./img/inf-ser-l/inf-ser-l1.jpg">' +
     '<img src="./img/inf-ser-l/inf-ser-l1.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
-    '<p>Колір: <span class="desc-type">Сірий</span></p>' +
+    '<p>Колір: <span class="desc-type">Unknown</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Розмір: <span class="desc-type">150х240</span></p>' +
+    '<p>Розмір: <span class="desc-type">Unknown</span></p>' +
     '</li>' +
     '<li class="desc-container">' +
-    '<p>Матеріал: <span class="desc-type">Цегла</span></p>' +
+    '<p>Матеріал: <span class="desc-type">Unknown</span></p>' +
     '</li>' +
     '</ul>' +
     '</div>' +
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/inf-ser-l/inf-ser-l2.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l3.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l4.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l5.jpg" data-fancybox="gallery7"></a>' +
-    '<a href="./img/inf-ser-l/inf-ser-l6.jpg" data-fancybox="gallery7"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l2.jpg" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l3.jpg" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l4.jpg" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l5.jpg" data-fancybox="gallery11"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l6.jpg" data-fancybox="gallery11"></a>' +
     
     '</div>' +
-    '<p class="item-type">Лежанка</p>' +
-    '<p class="item-name">Infiniti</p>' +
+    '<p class="item-type">Unknown</p>' +
+    '<p class="item-name">Unknown</p>' +
     '<img src="./img/stars.png" alt=""  class="img-stars"/>' +
-    '<p class="price">2390 UAH</p>' +
+    '<p class="price">Unknown UAH</p>' +
     '<button class="btn-order">' +
     '<svg class="icon-order">' +
     '<use xlink:href="./img/symbol-defs.svg#icon-shopping_bag"></use>' +
