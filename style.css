@@ -529,7 +529,11 @@ fill: #F7F7F7;
     background:#F6973F;
     fill:#1E1E1E;
   }
-
+.icon-pet{
+  width: 60px;
+  margin: 0 auto;
+  
+}
   .prod-btn {
     box-sizing: border-box;
     display: flex;
