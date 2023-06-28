@@ -78,8 +78,8 @@ form.addEventListener('submit', function (e) {
 
   var products = [
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery" href="./img/infinity/inf-prod-tumb.jpg">' +
-    '<img src="./img/infinity/inf-prod-tumb.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery" href="./img/har-kor1/har-kor1.jpg">' +
+    '<img src="./img/har-kor1/har-kor1.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -96,14 +96,9 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/infinity/infinity-prod1.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod2.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod3.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod4.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod5.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod6.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod7.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod8.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/har-kor1/har-kor2.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/har-kor1/har-kor3.jpg" data-fancybox="gallery"></a>' +
+    
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
     '<p class="item-name">Infiniti</p>' +
@@ -115,8 +110,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery" href="./img/infinity/inf-prod-tumb.jpg">' +
-    '<img src="./img/infinity/inf-prod-tumb.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery" href="./img/har-sir1/har-sir1.jpg">' +
+    '<img src="./img/har-sir1/har-sir1.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -133,14 +128,11 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/infinity/infinity-prod1.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod2.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod3.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod4.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod5.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod6.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod7.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod8.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/har-sir1/har-sir2.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/har-sir1/har-sir3.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/har-sir1/har-sir4.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/har-sir1/har-sir5.jpg" data-fancybox="gallery"></a>' +
+    
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
     '<p class="item-name">Infiniti</p>' +
@@ -152,8 +144,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery" href="./img/infinity/inf-prod-tumb.jpg">' +
-    '<img src="./img/infinity/inf-prod-tumb.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery" href="./img/inf-kor-l/inf-kor-l1.jpg">' +
+    '<img src="./img/inf-kor-l/inf-kor-l1.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -170,14 +162,11 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/infinity/infinity-prod1.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod2.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod3.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod4.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod5.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod6.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod7.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod8.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l2.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l3.jpg.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l4.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-kor-l/inf-kor-l5.jpg" data-fancybox="gallery"></a>' +
+    
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
     '<p class="item-name">Infiniti</p>' +
@@ -189,8 +178,8 @@ form.addEventListener('submit', function (e) {
     '</svg>' +
     '</button></li>',
     '<li class="item-product"><div class="image-container">' +
-    '<a class="item-link" data-fancybox="gallery" href="./img/infinity/inf-prod-tumb.jpg">' +
-    '<img src="./img/infinity/inf-prod-tumb.jpg" alt="" class="item-img" />' +
+    '<a class="item-link" data-fancybox="gallery" href="./img/inf-ser-l/inf-ser-l1.jpg">' +
+    '<img src="./img/inf-ser-l/inf-ser-l1.jpg" alt="" class="item-img" />' +
     '<div>' +
     '<ul class="item-description">' +
     '<li class="desc-container">' +
@@ -207,14 +196,12 @@ form.addEventListener('submit', function (e) {
     '</a>' +
     '</div>' +
     '<div style="display: none;">' +
-    '<a href="./img/infinity/infinity-prod1.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod2.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod3.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod4.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod5.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod6.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod7.jpg" data-fancybox="gallery"></a>' +
-    '<a href="./img/infinity/infinity-prod8.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l2.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l3.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l4.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l5.jpg" data-fancybox="gallery"></a>' +
+    '<a href="./img/inf-ser-l/inf-ser-l6.jpg" data-fancybox="gallery"></a>' +
+    
     '</div>' +
     '<p class="item-type">Лежанка</p>' +
     '<p class="item-name">Infiniti</p>' +
