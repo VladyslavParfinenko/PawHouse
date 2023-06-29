@@ -1135,15 +1135,23 @@ justify-content: space-around;
 .catch {
   display: flex;
   background-color:#1E1E1E;
+  
   justify-content: space-around;
   border-radius: 20px;
   overflow: hidden;
   align-items:center;
+  background-image:url("./img/catch.jpg");
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: left -300px;
+  
+  
 }
 
 .img-box {
   width: 250px;
   border-radius: 20px;
+  border: 2px solid #F6973F;
 }
 
 .img-box img {
@@ -1173,7 +1181,7 @@ justify-content: space-around;
     
     font-weight: 800;
     background: rgba(255, 255, 255, 0.15);
-    border: 0.861538px solid rgba(255, 255, 255, 0.6);
+    border: 0.861538px solid rgba(229, 132, 17, 1);;
     border-radius: 42px;
     font-size: 21px;
     line-height: 150%;
