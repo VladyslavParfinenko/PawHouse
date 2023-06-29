@@ -1197,3 +1197,14 @@ justify-content: space-around;
     
   box-shadow: inset 344px 0 0 0 #E58411;
   }
+  #submit:disabled {
+    background-color: #ccc; /* Цвет фона для неактивной кнопки */
+    color: #999; 
+    pointer-events: none;/* Цвет текста для неактивной кнопки */
+  }
+  
+  #phone:invalid::after {
+    content: "Введите номер в формате +380XX XXX-XX-XX";
+    color: red;
+    font-size: 12px;
+  }

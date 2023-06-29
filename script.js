@@ -407,6 +407,23 @@ form.addEventListener('submit', function (e) {
     createProductList(products2, 'furniture');
     createProductList(products, 'electronics');
   });
+  const phoneNumberInput = document.querySelector('#phone');
+const submitButton = document.querySelector('#submit');
+
+phoneNumberInput.addEventListener('input', function() {
+  const phoneNumber = this.value.trim();
+
+  // Проверяем, является ли введенное значение корректным номером телефона
+  const phoneNumberPattern = /^\+?[0-9]{10,}$/;
+  const isValidPhoneNumber = phoneNumberPattern.test(phoneNumber);
+
+  // Активируем или деактивируем кнопку отправки в зависимости от валидности номера телефона
+  if (isValidPhoneNumber) {
+    submitButton.removeAttribute('disabled');
+  } else {
+    submitButton.setAttribute('disabled', 'disabled');
+  }
+});
   
   
   
