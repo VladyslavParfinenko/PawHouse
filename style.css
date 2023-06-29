@@ -980,7 +980,7 @@ justify-content: space-around;
 }
 
 .modal input[type="text"],
-.modal input[type="email"],
+.modal input[type="tel"],
 .modal input[type="comment"] {
   width: 100%;
   padding: 15px;
@@ -988,7 +988,10 @@ justify-content: space-around;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
-
+.modal input[type="tel"]::placeholder {
+  content: "+380XX XXX-XX-XX";
+  opacity: 0.5;
+}
 .modal input[type="submit"] {
   background-color: #4caf50;
   color: #fff;
@@ -996,7 +999,20 @@ justify-content: space-around;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: inset 0 0 0 0 #E58411;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
+
+.modal input[type="submit"]:hover {
+
+  box-shadow: inset 344px 0 0 0 #E58411;
+
+}
+
+
+
+
+
 
 /* Стили для открытия и закрытия модального окна */
 .btn-order {
@@ -1009,6 +1025,13 @@ justify-content: space-around;
   border:1px solid black;
   padding:8px 20px;
   cursor: pointer;
+  box-shadow: inset 0 0 0 0 #E58411;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+.close:hover{
+  box-shadow: inset 344px 0 0 0 black;
+  color:#E58411;
 }
 #order-modal2 {
   display: none; /* Скрываем модальное окно по умолчанию */

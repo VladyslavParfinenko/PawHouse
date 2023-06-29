@@ -36,8 +36,11 @@ form.addEventListener('submit', function (e) {
     body: formData
   };
 
+  https://docs.google.com/forms/d/e/1FAIpQLSf5AAN5xFUeDHo34ZTaTdv9uxSt9FzSkOXWFtoDHo_gtTJyfw/viewform?usp=pp_url&entry.2005620554=%D0%B2%D0%BB%D0%B0%D0%B4&entry.1166974658=380632511526&entry.839337160=%D1%87%D0%B5%D0%BA
+
+
   // Отправляем данные формы на Google Forms
-  fetch('https://docs.google.com/forms/d/e/1FAIpQLSeArDbTL-4ZY65duxPVvtHsEwGxhiEvah4Qpygy7HdHp9atzw/formResponse', options)
+  fetch('https://docs.google.com/forms/d/e/1FAIpQLSf5AAN5xFUeDHo34ZTaTdv9uxSt9FzSkOXWFtoDHo_gtTJyfw/formResponse', options)
     .then(response => {
       // Обрабатываем ответ от сервера
       if (response.ok) {
