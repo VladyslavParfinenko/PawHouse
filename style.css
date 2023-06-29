@@ -82,7 +82,7 @@ img {
 
 .container {
   width: 1280px;
-  
+  padding: 0 80px;
   margin: 0 auto;
   box-sizing:content-box;
   
@@ -1143,7 +1143,7 @@ justify-content: space-around;
   background-image:url("./img/catch.jpg");
   background-size:cover;
   background-repeat:no-repeat;
-  background-position: left -300px;
+  
   
   
 }
